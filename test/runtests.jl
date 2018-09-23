@@ -12,7 +12,7 @@ using Test
     
 z=Polynomial([0,0,0])
 
-for n in 1:1000000
+for n in 1:100
     deg=rand(0:100)
     p=Polynomial(rand(-1000000:1000000,deg))
     q=-p

@@ -69,7 +69,7 @@ function Base. -(p::Polynomial,q::Polynomial)
 
 function Base. ==(p::Polynomial,q::Polynomial)
     d= p - q
-    all(d.coeffs.==0)
+    all(d.coeffs .==0)
  end
 
 
